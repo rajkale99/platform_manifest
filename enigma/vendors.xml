@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-17.0" />
+
+<!-- Device -->
+  <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="lineage" />
+
 <!-- vendor -->
     <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="colt" revision="c10" />
     <project path="vendor/colt" name="platform_vendor_colt" remote="colt" revision="c10" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="platform_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="colt" revision="c10" />
-    <project path="vendor/qcom/opensource/dataservices" name="platform_vendor_qcom_opensource_dataservices" remote="colt" revision="c10" />
     <project path="vendor/qcom/opensource/interfaces" name="platform_vendor_qcom_opensource_interfaces" remote="colt" revision="c10" />
     <project path="vendor/qcom/opensource/audio" name="platform_vendor_qcom_opensource_audio" remote="colt" revision="c10" />
     <project path="vendor/qcom/opensource/cryptfs_hw" name="platform_vendor_qcom_opensource_cryptfs_hw" remote="colt" revision="c10" />
     <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="colt" revision="c10" />
+    <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage" />
 </manifest>
