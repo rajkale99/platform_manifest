@@ -18,6 +18,6 @@
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="lineage" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lineage" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
-  <project path="vendor/colt" name="platform_vendor_colt" remote="colt" revision="c10" />
+  <project path="vendor/colt" name="platform_vendor_colt" remote="colt" revision="new" />
   <project path="vendor/qcom/opensource/power" name="platform_vendor_qcom_opensource_power" remote="colt" revision="c10" />
 </manifest>

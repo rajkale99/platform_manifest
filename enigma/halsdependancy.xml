@@ -3,8 +3,8 @@
 
 <!-- HALS -->
 
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="colt" revision="c10" />
-  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="colt" revision="c10" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="colt" revision="r20" />
+  <project path="hardware/libhardware_legacy" name="platform_hardware_libhardware_legacy" remote="colt" revision="r20" />
 
 <!-- hardware -->
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lineage" />
@@ -76,6 +76,6 @@
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="platform_hardware_qcom_wlan" remote="colt" revision="c10-caf" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
+  <project path="hardware/ril" name="platform_hardware_ril"  remote="colt" revision="r20" />
 
   </manifest>
