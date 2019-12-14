@@ -25,7 +25,7 @@
 <!-- frameworks -->
     <project path="frameworks/av" name="platform_frameworks_av" remote="colt" revision="r20" />
     <project path="frameworks/base" name="platform_frameworks_base" remote="colt" revision="r20" />
-    <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="colt" revision="c10" />
+    <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="colt" revision="r20" />
     <project path="frameworks/native" name="platform_frameworks_native" remote="colt" revision="r20" />
     <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="colt" revision="r20" />
     <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" remote="colt" revision="r20" />
