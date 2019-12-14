@@ -3,7 +3,7 @@
 
 <!-- general -->
     <project path="art" name="platform_art" remote="colt" revision="c10" />
-    <project path="build/blueprint" name="platform_build_blueprint" remote="colt" revision="c10" />
+    <project path="build/blueprint" name="platform_build_blueprint" remote="colt" revision="r20" />
     <project path="build/make" name="platform_build_make" remote="colt" revision="r20" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -14,7 +14,7 @@
         <linkfile src="tools" dest="build/tools" />
     </project>
 
-    <project path="build/soong" name="platform_build_soong" remote="colt" revision="c10" >
+    <project path="build/soong" name="platform_build_soong" remote="colt" revision="r20" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
